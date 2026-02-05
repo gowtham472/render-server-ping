@@ -2,7 +2,7 @@ name: Ping Render Server
 
 on:
   schedule:
-    - cron: "*/2 * * * *"  # every 2 minutes
+    - cron: "*/8 * * * *"  # every 2 minutes
   workflow_dispatch:
 
 jobs:

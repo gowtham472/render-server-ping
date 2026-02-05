@@ -1,6 +1,6 @@
 import requests
 
-url = "https://api.zcan.in/health"
+url = "https://firstbyte.onrender.com/health"
 
 try:
     res = requests.get(url, timeout=10)
